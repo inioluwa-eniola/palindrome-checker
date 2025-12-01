@@ -1,4 +1,6 @@
-A simple palindrome checker that can also generate palindromes.
+A simple palindrome checker that can generate palindromes.
+The inputted text can be copied to the clipboard and can be saved as a .txt file.
+The outputed boolean text or palindrome text can be copied to the clipboard and can be saved as a .txt file.
 
 
 Checking For a Palindrome:
