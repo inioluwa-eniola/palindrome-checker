@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <!-- Link to CDN js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Link to Monospace Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    
+    <!-- Link to Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <!-- Link to favicon -->
+    <link rel="icon" type="image/x-icon" href="images/document.png">
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Palindrome Checker</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="input-wrapper">
+                <p class="input-text-para" id="input-text-para">Input Text</p>
+                
+                <div class="input-section">
+                    <textarea name="input" id="input" class="input"></textarea>
+
+                    <div class="bottom-section-input">
+                        <button class="gen-pal" id="gen-pal">Generate palindrome</button>
+                        <label class="file-input" id="file-input"><i class="fa-solid fa-download file-upload-icon"></i>Upload File<input type="file" name="file" id="file" class="file"></label>
+                        <button class="save-input" id="save-input">Save</button>
+                        <button class="copy-input" id="copy-input" data-copy=".input"><i class="fa-solid fa-copy copy-input-icon"></i></button>
+                    </div>
+
+                </div>
+
+            </div>
+            
+            <div class="output-wrapper">
+                <p class="output-text-para" id="output-text-para">Palindrome Status</p>
+                <div class="output-section">
+                    <textarea name="output" id="output" class="output" disabled></textarea>
+
+                    <div class="bottom-section-output">
+                        <button class="save-output" id="save-output">Save</button>
+                        <button class="copy-output" id="copy-output" data-copy=".output"><i class="fa-solid fa-copy copy-output-icon"></i></button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
